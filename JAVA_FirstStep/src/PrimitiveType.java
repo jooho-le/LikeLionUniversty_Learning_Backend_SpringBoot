@@ -17,5 +17,15 @@ public class PrimitiveType {
         float b = 9.45f;
         System.out.println(a);
         System.out.println(b);
+
+        // 문자형 구분
+        // 1. char(= 2bytes)
+
+        char char_1 = 'a';
+        char char_2 = 97; // 아스키코드
+        char char_3 = 0x61; // 유니코드
+        System.out.println(char_1);
+        System.out.println(char_2);
+        System.out.println(char_3);
     }
 }
