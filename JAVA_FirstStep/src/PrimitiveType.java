@@ -27,5 +27,15 @@ public class PrimitiveType {
         System.out.println(char_1);
         System.out.println(char_2);
         System.out.println(char_3);
+
+        // 논리형
+        // 1. boolean(= 1byte)
+
+        boolean bool_1 = true;
+        boolean bool_2 = false;
+        boolean bool_3 = (100 < 0);
+        System.out.println(bool_1);
+        System.out.println(bool_2);
+        System.out.println(bool_3);
     }
 }
