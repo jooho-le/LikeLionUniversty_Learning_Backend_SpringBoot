@@ -32,17 +32,38 @@ public class StringExample {
 
         // 문자열 병합
         // 1. '+' 연산자
-        String str_1 = "hello";
-        String str_2 = "world";
-        System.out.println(str_1 + " " + str_2);
+//        String str_1 = "hello";
+//        String str_2 = "world";
+//        System.out.println(str_1 + " " + str_2);
 
         // 2. StringBuilder
         // 속도, 메모리 측면에서 유리한 방법
-        StringBuilder strBdr_1 = new StringBuilder("hello");
-        strBdr_1.append("  ");
-        strBdr_1.append("world");
-        String str_new = strBdr_1.toString();
-        System.out.println(str_new);
+//        StringBuilder strBdr_1 = new StringBuilder("hello");
+//        strBdr_1.append("  ");
+//        strBdr_1.append("world");
+//        String str_new = strBdr_1.toString();
+//        System.out.println(str_new);
+
+        // 문자열 슬라이스
+//        String str_1 = "이름: 이주호";
+//        String str_name = str_1.substring(4,7); // 마지막+1인덱스까지
+//        System.out.println(str_name);
+
+        // 문자열 대소문자 변환
+        String str_1 = "abc";
+        String str_2 = "ABC";
+        str_1 = str_1.toUpperCase();
+        str_2 = str_2.toLowerCase();
+        System.out.println(str_1);
+        System.out.println(str_2);
+
+        if (str_1.equals(str_2)) {
+            System.out.println(str_1.equals(str_2));
+        }
+        // 대소문자 무시하고 값을 비교
+        if (str_1.equalsIgnoreCase(str_2)) {
+            System.out.println("str_1.equals(str_2)");
+        }
 
     }
 }
