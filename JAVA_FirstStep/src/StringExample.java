@@ -19,5 +19,16 @@ public class StringExample {
             System.out.println("str2 == str_3");
         }
 
+        // 내용 비교
+        if (str.equals(str_2)) {
+            System.out.println("str.equals(str_2)");
+        }
+        if (str.equals(str_3)) {
+            System.out.println("str.equals(str_3)");
+        }
+        if (str_2.equals(str_3)) {
+            System.out.println("str_2.equals(str_3)");
+        }
+
     }
 }
