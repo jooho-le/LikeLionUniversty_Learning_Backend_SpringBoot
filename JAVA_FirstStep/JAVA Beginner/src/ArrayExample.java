@@ -7,5 +7,11 @@ public class ArrayExample {
 
         System.out.println(price[0]);
         System.out.println(mbti[0]);
+
+        // 인덱스 값 변경
+        price[1] = 8000;
+        System.out.println(price[1]);
+
+        System.out.println(price); // 객체라서 주소값을 출력
     }
 }
