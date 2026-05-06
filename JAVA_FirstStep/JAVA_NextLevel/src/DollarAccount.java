@@ -9,7 +9,7 @@ public class DollarAccount extends BankAccount{
     // 오버라이딩
     // 부모 클래스에서 상속받은 메서드의 내용 변경
     // 자식 클래스의 상황에 맞게
-    void deposit() {
+    // void deposit() {
 
-    }
+    // }
 }

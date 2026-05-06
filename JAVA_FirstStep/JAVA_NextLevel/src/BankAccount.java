@@ -1,25 +1,29 @@
 public class BankAccount {
 
     // 멤버변수
-    int bankCode;
-    int accountNo;
-    String owner;
-    int balance;
-    boolean isDormant;
-    int password;
+    // private : 동일 클래스 내에서만 참조 가능
+    private int bankCode;
+    private int accountNo;
+    private String owner;
+    private int balance;
+    private boolean isDormant;
+    private int password;
 
     public BankAccount() {
 
     }
 
     // 메소드 (함수)
-    void inquiry() {
+    public void inquiry() {
     }
-    void deposit() {
+    public void deposit() {
     }
-    void withdraw() {
+    public void withdraw() {
     }
-    void heldDormant() {
+    public void heldDormant() {
+    }
+    public void changePassword(int password) {
+        this.password = password;
     }
 
     // 생성자
@@ -40,5 +44,7 @@ public class BankAccount {
         this.isDormant = isDormant;
         this.password = password;
     }
+
+
 
 }
