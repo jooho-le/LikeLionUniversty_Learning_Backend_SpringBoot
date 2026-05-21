@@ -7,5 +7,6 @@ public class ClassExample_bankaccount {
         // 인스턴스 변경은 함수를 만들어서 변경하는게 정석
 
         bankAccount.changePassword(123456);
+        System.out.println(bankAccount.getPassword());
     }
 }

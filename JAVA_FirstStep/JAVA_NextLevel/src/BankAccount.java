@@ -45,6 +45,27 @@ public class BankAccount {
         this.password = password;
     }
 
+    public int getBankCode() {
+        return bankCode;
+    }
 
+    public int getAccountNo() {
+        return accountNo;
+    }
 
+    public String getOwner() {
+        return owner;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public boolean isDormant() {
+        return isDormant;
+    }
+
+    public int getPassword() {
+        return password;
+    }
 }
