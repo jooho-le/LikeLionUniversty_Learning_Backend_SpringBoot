@@ -18,8 +18,6 @@ public class BankAccount {
     }
     public void deposit() {
     }
-    public void withdraw() {
-    }
     public void heldDormant() {
     }
     public void changePassword(int password) {
